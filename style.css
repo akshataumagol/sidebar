@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.mv {
+    width: 100%;
+    background-color: black;
+ 
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 10px 0;
+}
+
+.list a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px 20px;
+    display: block;
+}
+.filter {
+    width: 200px; 
+    background-color:wheat;
+    position: fixed;  
+    height: 100vh; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+.container {
+   display: flex;
+   margin-left: 210px;
+}
+
+.para {
+    margin-bottom: 20px;
+}
+
+h1 {
+    color: red;
+    text-align: center;
+}
